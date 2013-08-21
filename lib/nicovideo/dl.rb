@@ -7,6 +7,8 @@ module Nicovideo
     require 'nicovideo/dl/download'
 
     require 'niconico'
+    require 'pit'
+
     def self.start(arg)
       Download.er(Option.parse(arg))
     end

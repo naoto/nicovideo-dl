@@ -22,5 +22,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
 
   spec.add_runtime_dependency "niconico"
+  spec.add_runtime_dependency "pit"
   spec.add_runtime_dependency "mechanize"
 end
